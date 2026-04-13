@@ -1,7 +1,15 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
+import { withPayload } from '@payloadcms/next/withPayload';
+import path from 'path';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  webpack: (webpackConfig) => {
+    webpackConfig.resolve.alias = {
+      ...webpackConfig.resolve.alias,
+      '@payload-config': path.resolve(process.cwd(), 'payload.config.ts'),
+    };
+    return webpackConfig;
+  },
 };
 
-export default nextConfig;
+export default withPayload(nextConfig, { devBundleServerPackages: false });
