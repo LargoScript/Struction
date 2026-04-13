@@ -235,7 +235,7 @@ function CapabilitiesSection({ c }: { c: PageContent['capabilities'] }) {
 
 function GallerySection({ c }: { c: PageContent['gallery'] }) {
   return (
-    <section className="relative py-24 bg-black border-t border-white/[0.06]">
+    <section id="gallery" className="relative py-24 bg-black border-t border-white/[0.06]">
       <div className="container mx-auto px-4">
         <div className="mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-white">{c.heading}</h2>

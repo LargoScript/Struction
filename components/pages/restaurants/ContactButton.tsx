@@ -11,13 +11,16 @@ const ContactModal = dynamic(
 interface Props {
   label: string;
   className?: string;
+  /** Runs before opening the modal (e.g. close mobile nav). */
+  onBeforeOpen?: () => void;
 }
 
-export function ContactButton({ label, className }: Props) {
+export function ContactButton({ label, className, onBeforeOpen }: Props) {
   const [opened, setOpened] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
+    onBeforeOpen?.();
     setOpened(true);
     setIsOpen(true);
   };

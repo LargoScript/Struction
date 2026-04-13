@@ -3,6 +3,13 @@ export const CONTENT = {
     nav: {
       home: '← Home',
       cta:  'Discuss a Project',
+      links: [
+        { id: 'problems', label: 'Problems' },
+        { id: 'solution', label: 'Services' },
+        { id: 'gallery', label: 'Portfolio' },
+        { id: 'faq', label: 'FAQ' },
+        { id: 'cta', label: 'Contact' },
+      ],
     },
     hero: {
       badge:      'Web Development for Restaurants',
@@ -85,6 +92,13 @@ export const CONTENT = {
     nav: {
       home: '← Головна',
       cta:  'Обговорити проект',
+      links: [
+        { id: 'problems', label: 'Проблеми' },
+        { id: 'solution', label: 'Послуги' },
+        { id: 'gallery', label: 'Портфоліо' },
+        { id: 'faq', label: 'FAQ' },
+        { id: 'cta', label: 'Контакти' },
+      ],
     },
     hero: {
       badge:      'Веб-розробка для ресторанів',
