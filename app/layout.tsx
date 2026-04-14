@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Structio — Custom Websites for Modern Businesses',
-  description: 'Structio builds high-performance, design-first websites for restaurants, clinics, beauty salons, kiosks, and more.',
+  title: 'Struction — Custom Websites for Modern Businesses',
+  description: 'Struction builds high-performance, design-first websites for restaurants, clinics, beauty salons, kiosks, and more.',
   metadataBase: new URL('https://struction.dev'),
 };
 

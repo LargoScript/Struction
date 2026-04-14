@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import RestaurantsPage from '@/components/pages/restaurants/RestaurantsPage';
 
 export const metadata: Metadata = {
-  title: 'Restaurant website development | Structio',
+  title: 'Restaurant website development | Struction',
   description:
     'Створюємо сучасні сайти для ресторанів: онлайн-бронювання, мобільне меню, SEO та швидке завантаження. Запуск за 14 днів.',
   openGraph: {
-    title: 'Restaurant website development | Structio',
+    title: 'Restaurant website development | Struction',
     description:
       'Сучасний сайт для вашого ресторану — онлайн-бронювання, мобільна оптимізація, SEO. Запуск за 14 днів.',
     url: 'https://struction.dev/restaurants',
-    siteName: 'Structio',
+    siteName: 'Struction',
     type: 'website',
     locale: 'uk_UA',
     images: [
@@ -18,13 +18,13 @@ export const metadata: Metadata = {
         url: '/struction-icon-512.png',
         width: 512,
         height: 512,
-        alt: 'Structio — веб-розробка для ресторанів',
+        alt: 'Struction — веб-розробка для ресторанів',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Restaurant website development | Structio',
+    title: 'Restaurant website development | Struction',
     description:
       'Сучасний сайт для ресторану: онлайн-бронювання, мобільна оптимізація, SEO. Запуск за 14 днів.',
   },
