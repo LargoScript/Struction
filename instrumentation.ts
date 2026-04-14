@@ -13,9 +13,9 @@ export async function register() {
   if (users.totalDocs === 0) {
     await payload.create({
       collection: 'users',
-      data: { email: 'admin@structio.dev', password: 'admin' },
+      data: { email: 'admin@struction.dev', password: 'admin' },
     });
-    payload.logger.info('Created default admin user: admin@structio.dev / admin');
+    payload.logger.info('Created default admin user: admin@struction.dev / admin');
   }
 
   // Seed default backgrounds
