@@ -11,7 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Structio — Custom Websites for Modern Businesses',
   description: 'Structio builds high-performance, design-first websites for restaurants, clinics, beauty salons, kiosks, and more.',
-  metadataBase: new URL('https://structio.dev'),
+  metadataBase: new URL('https://struction.dev'),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

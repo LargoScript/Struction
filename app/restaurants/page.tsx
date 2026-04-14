@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Restaurant website development | Structio',
     description:
       'Сучасний сайт для вашого ресторану — онлайн-бронювання, мобільна оптимізація, SEO. Запуск за 14 днів.',
-    url: 'https://structio.dev/restaurants',
+    url: 'https://struction.dev/restaurants',
     siteName: 'Structio',
     type: 'website',
     locale: 'uk_UA',
@@ -29,17 +29,17 @@ export const metadata: Metadata = {
       'Сучасний сайт для ресторану: онлайн-бронювання, мобільна оптимізація, SEO. Запуск за 14 днів.',
   },
   alternates: {
-    canonical: 'https://structio.dev/restaurants',
+    canonical: 'https://struction.dev/restaurants',
   },
 };
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
-  name: 'Structio',
+  name: 'Struction',
   description:
     'Розробка сайтів для ресторанів — сучасний дизайн, мобільна оптимізація, SEO та онлайн-бронювання.',
-  url: 'https://structio.dev/restaurants',
+  url: 'https://struction.dev/restaurants',
   serviceType: 'Web Development',
   areaServed: {
     '@type': 'Country',
