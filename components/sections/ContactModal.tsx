@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { useLang } from '@/lib/lang';
@@ -28,7 +28,7 @@ const MODAL_TEXT = {
     successTitle: 'Message sent successfully!',
     successSub:   "We'll get back to you shortly.",
     preferDirect: 'Prefer direct messaging?',
-    telegramCta:  'Contact via Telegram (@StructioDev)',
+    telegramCta:  'Contact via Telegram (@StructionDev)',
   },
   uk: {
     title:        'Обговоріть ваш проект',
@@ -49,7 +49,7 @@ const MODAL_TEXT = {
     successTitle: 'Повідомлення надіслано!',
     successSub:   'Ми зв\u2019яжемося з вами найближчим часом.',
     preferDirect: 'Бажаєте написати напряму?',
-    telegramCta:  'Написати в Telegram (@StructioDev)',
+    telegramCta:  'Написати в Telegram (@StructionDev)',
   },
 } as const;
 
@@ -399,7 +399,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
         <div className="mt-6 pt-6 border-t border-white/10 text-center">
           <p className="text-neutral-400 text-sm mb-3">{t.preferDirect}</p>
           <a
-            href="https://t.me/StructioDev"
+            href="https://t.me/StructionDev"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#229ED9]/10 hover:bg-[#229ED9]/20 text-[#229ED9] px-6 py-2.5 rounded-lg font-medium transition-colors border border-[#229ED9]/20"

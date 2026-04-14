@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { createContext, useContext, useState, useCallback, useEffect, ReactNode } from 'react';
 import { IconKey } from '../icons';
 import { setByPath } from '../struction-cms/contentPath';
@@ -156,7 +156,7 @@ export const defaultContentUk: SiteContent = {
     badge: 'Розробка сайтів для малого бізнесу',
     titleLine1: 'Ми створюємо сайти, які',
     titleHighlight: 'дають реальні результати',
-    description: 'Structio допомагає місцевому бізнесу здобути потужну присутність в інтернеті. Сучасний дизайн, SEO-оптимізація та зручне управління — все необхідне для зростання.',
+    description: 'Struction допомагає місцевому бізнесу здобути потужну присутність в інтернеті. Сучасний дизайн, SEO-оптимізація та зручне управління — все необхідне для зростання.',
     primaryButton: 'Безкоштовна консультація',
     secondaryButton: 'Наші роботи',
     videoSrc: `${BASE}videos/hero.mp4`,

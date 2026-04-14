@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState, type MouseEvent } from 'react';
 import { useLang } from '@/lib/lang';
 import { scrollToSectionId } from '@/lib/scrollToSectionId';
@@ -31,7 +31,7 @@ export function RestaurantsNavbar() {
             <div className="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center text-black font-bold text-xs">
               ST
             </div>
-            <span className="text-white font-bold text-lg tracking-tight">Structio</span>
+            <span className="text-white font-bold text-lg tracking-tight">Struction</span>
           </a>
 
           <div className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium text-neutral-300">

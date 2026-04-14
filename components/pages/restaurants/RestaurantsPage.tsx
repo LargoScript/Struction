@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import Image from 'next/image';
 import { LangProvider, useLang } from '@/lib/lang';
 import { ICONS } from '@/lib/icons';
@@ -322,7 +322,7 @@ function CTASection({ c }: { c: PageContent['cta'] }) {
             className="w-full sm:w-auto px-8 py-4 bg-amber-500 hover:bg-amber-400 text-black rounded-lg font-bold text-lg transition-all hover:scale-105 shadow-[0_0_24px_rgba(245,158,11,0.35)]"
           />
           <a
-            href="https://t.me/StructioDev"
+            href="https://t.me/StructionDev"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-lg font-bold backdrop-blur-md transition-all"
@@ -348,11 +348,11 @@ function SimpleFooter({ c }: { c: PageContent['footer'] }) {
           <div className="w-6 h-6 bg-amber-500 rounded-md flex items-center justify-center text-black font-bold text-[10px]">
             ST
           </div>
-          <span>© {new Date().getFullYear()} Structio. {c.rights}</span>
+          <span>© {new Date().getFullYear()} Struction. {c.rights}</span>
         </div>
         <div className="flex gap-6">
           <a href="/" className="hover:text-neutral-400 transition-colors">{c.home}</a>
-          <a href="https://t.me/StructioDev" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-400 transition-colors">
+          <a href="https://t.me/StructionDev" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-400 transition-colors">
             Telegram
           </a>
         </div>
